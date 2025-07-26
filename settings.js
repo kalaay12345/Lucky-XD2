@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",
+SESSION_ID: process.env.SESSION_ID || "lucky~HFUkXY7A#imxnB0ms9MdF05r-UxP_FHKbDlUBtB7weS6QOmsDNk8",
 // add your Session Id make sure it starts with lucky~
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
@@ -40,7 +40,7 @@ LINK_WHITELIST: "youtube.com,github.com",
        ADMIN_EVENTS: process.env.ADMIN_EVENTS || "false",
 // make true to know who dismiss or promoted a member in group
 
-      ANTI_LINK: process.env.ANTI_LINK || "false",
+      ANTI_LINK: process.env.ANTI_LINK || "true",
 // make anti link true,false for groups 
 
       MENTION_REPLY: process.env.MENTION_REPLY || "false",
@@ -68,10 +68,10 @@ LINK_WHITELIST: "youtube.com,github.com",
           DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links witho remove member 
 
-          OWNER_NUMBER: process.env.OWNER_NUMBER || "",
+          OWNER_NUMBER: process.env.OWNER_NUMBER || "252682105999",
 // add your bot owner number
 
-OWNER_NAME: process.env.OWNER_NAME || "",
+OWNER_NAME: process.env.OWNER_NAME || "khan218",
 // add bot owner name
 
               DESCRIPTION: process.env.DESCRIPTION || "*© Powered By Lucky Tech Hub*",
@@ -85,7 +85,7 @@ OWNER_NAME: process.env.OWNER_NAME || "",
                 ANTI_BAD: process.env.ANTI_BAD || "false",
 // false or true for anti bad words  
 
-            ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "false",
+            ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "true",
 // make anti link true,false for groups 
 
         AUTO_STICKER: process.env.AUTO_STICKER || "false",
