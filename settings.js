@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "lucky~SNVUDCwb#3yh5UMKrtAktD4TMCu6j_3EWT3r8xVNw0vT-X5mfYh0",
+SESSION_ID: process.env.SESSION_ID || "lucky~zIMAyTyY#wqK3DyxCEY1vkTrgHMZ6lj-ygfKHPSj-mR5ZtfL7eE0",
 // add your Session Id make sure it starts with lucky~
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
@@ -94,7 +94,7 @@ OWNER_NAME: process.env.OWNER_NAME || "khan22",
               AUTO_REPLY: process.env.AUTO_REPLY || "false",
 // make true or false automatic text reply 
 
-        ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
+        ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
 // maks true for always online 
 
          PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
@@ -112,7 +112,7 @@ OWNER_NAME: process.env.OWNER_NAME || "khan22",
     ANTI_VV: process.env.ANTI_VV || "true",
 // true for anti once view 
 
-      ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "inbox", 
+      ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "true", 
 // change it to 'inbox/ same if you want to resend deleted message in same chat 
 
       AUTO_RECORDING: process.env.AUTO_RECORDING || "false",
