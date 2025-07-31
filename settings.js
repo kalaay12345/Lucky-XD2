@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "lucky~GJUHRZiD#5hc92aDZ-3ZUWdzC-gB5coJ1X-3dvAqxkVXJuWZFnkU",
+SESSION_ID: process.env.SESSION_ID || "lucky~rJ0xmZSQ#7AyMH47yNltTy8nM87vBkxrV2JjhrlYeraXLyoIjk-I",
 // add your Session Id make sure it starts with lucky~
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
@@ -56,10 +56,10 @@ LINK_WHITELIST: "youtube.com,github.com",
 // add alive msg here 
 
 
-        STICKER_NAME: process.env.STICKER_NAME || "LUCKY-XD",
+        STICKER_NAME: process.env.STICKER_NAME || "khan",
 // type sticker pack name 
 
-        CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
+        CUSTOM_REACT: process.env.CUSTOM_REACT || "true",
 // make this true for custum emoji react  
   
       CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "🍌,💖,💗,❤️‍🩹,❤️,🧡,🍑,💚,💙,💜,🤎,🖤,🤍",
