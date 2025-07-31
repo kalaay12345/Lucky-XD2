@@ -12,7 +12,7 @@ PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
 BOT_NAME: process.env.BOT_NAME || "LUCKY-XD",
 // add bot name here for menu
-MODE: process.env.MODE || "public",
+MODE: process.env.MODE || "private",
 // make bot public-private-inbox-group 
 
 LINK_WHITELIST: "youtube.com,github.com",
@@ -115,7 +115,7 @@ OWNER_NAME: process.env.OWNER_NAME || "𝚱𝚮𝚨𝚴𝚶ＷＷＷ",
       ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "true", 
 // change it to 'inbox/ same if you want to resend deleted message in same chat 
 
-      AUTO_RECORDING: process.env.AUTO_RECORDING || "true",
+      AUTO_RECORDING: process.env.AUTO_RECORDING || "false",
 // make it true for auto recoding 
 
 version: process.env.version || "0.0.9",
