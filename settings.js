@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "lucky~LN81QIYY#1Tddpqhpon3cznIqmZDEiZ2IgwxbPpF17g2FVYU5kFA",
+SESSION_ID: process.env.SESSION_ID || "lucky~OJEVnSpY#ipJVx4uNOBsu8d27mBjrFEPCqB3cQiWDiNXlka4Egjw",
 // add your Session Id make sure it starts with lucky~
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
@@ -56,7 +56,7 @@ LINK_WHITELIST: "youtube.com,github.com",
 // add alive msg here 
 
 
-        STICKER_NAME: process.env.STICKER_NAME || "khan",
+        STICKER_NAME: process.env.STICKER_NAME || "𝚱 𝚮 𝚨 𝚴",
 // type sticker pack name 
 
         CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
